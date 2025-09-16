@@ -6,4 +6,5 @@ const connectDB = async (uri) => {
     });
     console.log('MongoDB connected');
 };
+
 module.exports = connectDB;
